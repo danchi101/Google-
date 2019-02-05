@@ -5,4 +5,16 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.37.0" />
+    <PackageReference Include="Google.Apis.AndroidPublisher.v2" Version="1.37.0.1474" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.37.0" />
+    <PackageReference Include="Google.Apis.Core" Version="1.37.0" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.37.0.1470" />
+    <PackageReference Include="Google.Apis.People.v1" Version="1.25.0.830" />
+    <PackageReference Include="Google.Cloud.PubSub.V1" Version="1.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
 </Project>
